@@ -1,0 +1,57 @@
+
+.Contenedor {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 80, 80);
+    margin: 0px;
+    padding: 0px;
+}
+.Encabezado {
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    background-color: rgb(37, 35, 35);
+}
+
+.Titulo {
+    font-family: 'Caprasimo', cursive;
+    font-size: xx-large;
+    color: aliceblue;
+}
+.Informacion {
+    width: 100%;
+    height: 95%;
+    background-color: brown;
+    display: flex;
+}
+
+.Articulos {
+    width: 75%;
+    height: 100%;
+    background-color: brown;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+}
+.nota {
+    width: auto;
+    height: 5%;
+    font-family: 'Caprasimo';
+    font-size: x-large;
+    color: yellow;
+    margin: 1%;
+    border-color: black;
+    border-style: double;
+    border-radius: 10px;
+    padding: 1%;
+}
+.nota:hover {
+    background-color: yellow;
+    color: brown;
+}
+.Menu {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(255, 222, 76);;
+}
