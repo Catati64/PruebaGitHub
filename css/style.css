@@ -53,5 +53,26 @@
 .Menu {
     width: 25%;
     height: 100%;
-    background-color: rgb(255, 222, 76);;
+    background-color: rgb(255, 222, 76);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menudat {
+    display: block;
+    text-decoration: none;
+    color: brown;
+    font-family: 'Caprasimo';
+    font-size: x-large;
+    border-style: inset;
+    border-color: brown;
+    border-radius: 10px;
+    padding: 10%;
+}
+
+.menudat:hover {
+    background-color: rgb(255, 191, 0);
+    border-style: outset;
 }
